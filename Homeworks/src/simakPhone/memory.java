@@ -20,11 +20,12 @@ public class memory implements reposit_mem<PhoneBook>{
 
     @Override
     public PhoneBook get(int id) {
+        return null;
     }
 
     @Override
-    public List<PhoneBook> getAll() {
-
+    public List<PhoneBook> getAll(){
+        return ph_book;
     }
 
     @Override
