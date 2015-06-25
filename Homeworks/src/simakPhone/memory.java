@@ -20,12 +20,6 @@ public class memory implements reposit_mem<PhoneBook>{
 
     @Override
     public PhoneBook get(int id) {
-
-      /*  for (PhoneBook item : ph_book) {
-            PhoneBook = PhoneBook + item + " ";
-        }
-
-        editResult.setText(PhoneBook);*/
     }
 
     @Override
@@ -41,7 +35,6 @@ public class memory implements reposit_mem<PhoneBook>{
 
     @Override
     public void remove(PhoneBook entity /*int id????*/) {
-        ph_book.remove(int id);
 
     }
 
