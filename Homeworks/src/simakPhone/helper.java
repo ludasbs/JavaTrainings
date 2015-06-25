@@ -6,7 +6,8 @@ package simakPhone;
  */
 public class helper {
 
-    public static printAll() {
+    public static PhoneBook add_item(reposit_mem phone) {
+        PhoneBook ph=new PhoneBook();
 
     }
 }
