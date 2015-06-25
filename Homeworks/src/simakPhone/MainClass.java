@@ -11,7 +11,7 @@ public class MainClass {
 
     public static void main(String[] args) {
 
-        List<reposit_mem> phoneList=new ArrayList<>();
+        reposit_mem<PhoneBook> phoneList = new memory();
         int output=30;
 
         while(output!=0)
