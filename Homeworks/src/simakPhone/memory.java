@@ -2,7 +2,6 @@ package simakPhone;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
 /**
  * Created by LSimak on 23.06.2015.
@@ -29,9 +28,8 @@ public class memory implements reposit_mem<PhoneBook>{
     }
 
     @Override
-    public void add(PhoneBook entity) {
-
-
+    public void add(PhoneBook A) {
+        ph_book.add(A);
     }
 
     @Override

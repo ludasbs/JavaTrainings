@@ -1,7 +1,5 @@
 package simakPhone;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -28,7 +26,7 @@ public class MainClass {
             output = scanner.nextInt();
 
             switch (output){
-                case 1: //phoneList.getAll();
+                case 1: phoneList.getAll();
                         break;
 
                 case 2: break;
