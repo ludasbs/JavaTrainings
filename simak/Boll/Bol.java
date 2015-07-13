@@ -25,7 +25,10 @@ public class Bol{
 
         final int size = 20;
         // HINT: нужно добавить шаг по OX
-        final int[] step = {2};
+          final int[] step = {2};
+          final int[] stepX={2};
+
+
 
         Timer timer = new Timer(10, new AbstractAction() {
             @Override
@@ -35,21 +38,23 @@ public class Bol{
                 g.clearRect(0,0, 300,460);
                 g.setColor(new Color(4, 81, 40));
                 g.fillOval(x[0], y[0],size,size);
-                y[0] += step[0];
-                x[0]+=step[0];
+                   y[0] += step[0];
+                   x[0]+=stepX[0];
+
                 // HINT нужно проверять и по оси OX
-                if(y[0] > 300-size) {
-                    step[0] =-step[0];
-                } else if(y[0]<size/2) {
-                    step[0] =-step[0];
+                if(x[0] > 300-size) {
+                    stepX[0] =-stepX[0];
+                }else if(x[0]<size/2) {
+                    stepX[0] =-stepX[0];
                 }
 
 
-                if(x[0] > 460-size) {
+              if(y[0] > 460-size) {
                     step[0] =-step[0];
-                } else if(x[0]<size/2) {
+                }if(y[0]<size/2) {
                     step[0] =-step[0];
                 }
+
             }
         });
 
