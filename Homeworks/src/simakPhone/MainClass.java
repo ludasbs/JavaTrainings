@@ -9,7 +9,7 @@ public class MainClass {
 
     public static void main(String[] args) {
 
-        reposit_mem<PhoneBook> phoneList = new memory();
+        reposit_mem<PhoneBook> phoneList = new memory<>();
         int output=30;
 
         while(output!=0)
@@ -29,7 +29,8 @@ public class MainClass {
                 case 1: phoneList.getAll();
                         break;
 
-                case 2: break;
+                case 2: helper.add_item(phoneList);
+                        break;
 
                 case 3: break;
 

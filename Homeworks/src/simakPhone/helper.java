@@ -6,8 +6,13 @@ package simakPhone;
  */
 public class helper {
 
-    public static PhoneBook add_item(reposit_mem phone) {
-        PhoneBook ph=new PhoneBook();
+    public static void add_item(reposit_mem phoneList) {
+        System.out.printf("Vvedite \n");
+
+        /hgfhgdhfgsdgrfesgg
+        PhoneBook ph=new PhoneBook(id, name, surname,teg, number, tip);
+        phoneList.add(ph);
+
 
     }
 }
